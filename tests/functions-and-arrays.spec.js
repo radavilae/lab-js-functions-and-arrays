@@ -49,8 +49,8 @@ describe("Iteration 2 | Find the Longest Word", () => {
       }
     });
 
-    it("should return 0 when called with an empty array", () => {
-      expect(findLongestWord([])).toBe(0);
+    it("should return null when called with an empty array", () => {
+      expect(findLongestWord([])).toBeNull();
     });
 
     it("should return the first word when called with a single-word array", () => {
@@ -114,8 +114,8 @@ describe("Iteration 5 | Find Elements", () => {
       expect(typeof doesWordExist).toBe("function");
     });
 
-    it("should return null if receives an empty array when called", () => {
-      expect(doesWordExist([])).toBe(null);
+    it("should return null when called with an empty array", () => {
+      expect(doesWordExist([])).toBeNull();
     });
 
     it("should return false if the word we are looking for is not in the array", () => {

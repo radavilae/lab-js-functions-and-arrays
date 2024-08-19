@@ -157,8 +157,12 @@ Implement the function `maxOfTwoNumbers` that takes two numbers as arguments and
 ### Iteration 2 | Find the Longest Word
 
 Implement the function `findLongestWord` that takes as an argument an array of words and returns the longest one. If there are 2 with the same length, it should return the first occurrence.
+<br>
 
-You can use the following array to test your solution:
+The function should return `null` if an empty array is passed as an argument.
+
+
+You can use the following array to test your solution
 
 ```javascript
 const words = ["mystery", "brother", "aviator", "crocodile", "pearl", "orchard", "crackpot"];
